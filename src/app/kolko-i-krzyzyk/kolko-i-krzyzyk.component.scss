@@ -1,0 +1,51 @@
+body{
+    
+    color: #666;
+  }
+  h1{
+    text-align: center;
+    color: #fff;
+  }
+  .box{
+    width: 350px;
+    overflow: auto;
+    background: #666;
+    padding-bottom: 40px;
+    border-radius: 10px;
+  }
+  .info{
+    background: #333;
+    color: #fff;
+    font-size: 15px;
+  }
+ .Plansza li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    background: #333;
+    color: #ccc;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+ .Plansza li:hover{
+    cursor: pointer;
+    background: #000;
+    transform: scale(1.2) rotate(10deg);  
+  }
+  .reset{
+    border: 0;
+    background: #444;
+    color: #fff;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .reset:hover{
+    cursor: pointer;
+    background: #000;
+  } 
+  
+  

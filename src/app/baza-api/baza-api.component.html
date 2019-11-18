@@ -1,0 +1,25 @@
+<div class="box">
+    <h1>API wysyłające żądania do bazy PostgreSQL (Python)</h1>
+    <div class="info">Funkcjonalność zostanie rozszerzona</div>
+    <div class="tabela">Rekordy pobrane z bazy PostgreSQL.
+        <table cellspacing="0" cellpadding="1" border="1" width="300">
+            <tr *ngFor="let rekord of rekordy">
+                <td>{{rekord.id}}</td>
+                <td>{{rekord.liczba_uz}}</td>
+                <td>{{rekord.liczba_gen}}</td>
+                <td>{{rekord.data_wpisu}}</td>
+            </tr>
+        </table>
+    </div>
+
+    <button (click)="showRekordy()">Wyświetl wszystkie rekordy bazy "liczby"</button>
+    <br><button (click)="insertRekord()">Dopisz liczbę 46575</button>
+
+</div>
+
+<!--
+id?: number;
+liczba_uz?: number;
+liczba_gen?: number;
+data_wpisu?: string;
+-->

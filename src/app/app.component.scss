@@ -1,0 +1,25 @@
+body {
+    background-image: url("http://13.48.189.101/api/imgdef.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  ul {
+    margin:auto;
+    display: inline-block;
+
+  }
+  li{
+    float: left;
+    font-size: 10px;
+    color: #ccc;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+  div { 
+    align-self: center; 
+  }
+  .odstep {
+    width: 50px;
+  }
